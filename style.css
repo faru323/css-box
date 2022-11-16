@@ -1,0 +1,112 @@
+
+body{
+    background-color: rgba(0, 0, 0, 0.889);
+}
+#red {
+    background:red;
+    border-radius: 50%;
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1000px;
+
+} 
+#orange{
+    background:orange;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 800px;
+     position: absolute;
+     top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    height: 800px;
+
+}
+
+#yellow {
+    background:yellow;
+    border-radius:50%;
+    width: 600px;
+    height: 600px;
+     position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    margin: 0 auto;
+
+}
+#green {
+    background: green;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+     position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+}
+
+
+#blue {
+     background-color:blue;
+     border-radius: 50%;
+     width:200px;
+     height:200px;
+    margin: 0 auto;
+     position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+}
+#purple {
+    background:purple;
+    border-radius: 50%;
+    width: 100px;
+    margin: 0 auto;
+    height: 100px;
+     position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+  #heart {
+   
+    margin: 880px;
+    padding: 880px;;
+    position: relative;
+    width: 100px;
+    height: 90px;
+  }
+  #heart:before,
+  #heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  #heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
