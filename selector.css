@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+}
+.aAa{
+
+color: blueviolet;
+
+}
+*{
+    font-style: italic;
+}
+p{
+    font-weight: 1000;
+   
+}
+
+p.intro{
+
+    background-color: coral;
+}
+div.aAa{
+
+    font-family: verdana;
+    font-size: 300%;
+}
